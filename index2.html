@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link rel="html" href="login.html">
+  <link rel="html" href="index.html">
+  <script src="https://kit.fontawesome.com/d712da9ffa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-info navbar-dark text-white  py-3 fixed-top">
+    <div class="container d-flex d-row justify-content-center">
+        <a class="navbar-brand font-weight-bold" href="#">PR Fitness</a>
+        <button class="navbar-toggler" 
+                type="button" data-toggle="collapse" 
+                data-target="#navmenu" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                </li>
+            </ul>
+          </div>
+        </button>
+    </div>
+</nav>
+
+    <!-- Main Section -->
+    
+    <section class="bg-white text-info p-10 p-lg-0 pt-lg-20 p-md-10 text-center my-5 bg-body">
+        <div class="container pt-5 mx-auto">
+            <div class="row-lg col-sm">
+                <div class="d-md-flex flex-column justify-content-space-around align-items center">
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <h1 class="carousel-caption display-5 d-flex flex-column justify-content-center h-100">Join Our Community Today!</h1>
+                            <img class="d-block w-100 h-100" src="static/premium_photo-1664475851168-28fe03e5ed8e.avif" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                              <h1 class="carousel-caption display-4 bg-dark text-center mb-5">21-Day Free Trial</h1>
+                              <img class="d-block w-100 h-50" src="static/premium_photo-1664475011924-b2967f24c5c2.avif" alt="Second slide">
+                          </div>
+                          <div class="carousel-item">
+                            <h1 class="carousel-caption display-4 bg-dark text-center mb-5">Unlimited Studio Classes</h1>
+                            <p class="carousel-caption text-light text-center">Scheule two complimentary sessions with a personal trainer.<p>
+                            <img class="d-block w-100" src="static/photo-1687393629507-a594caa64c1b.avif" alt="Third slide">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel" type="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carousel" type="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <section class="p-10 p-lg-0 text-center bg-info text-white text-sm-start shadow-lg">
+        <div class="container p-5">
+            <div class="row g-4 p-4">
+                <div id="contact" class="col-sm-12 col-lg-4">
+                    <h1>Don't Be Shy</h1>
+                    <p class="text-white mt-3">Drop us a line and one of our customer service reps will be in touch.</p>
+                    <a href="#"><button class="w-33 bg-info text-white h-5 border-light mt-3">Contact Us</button></a>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                <div>
+                    <h1>Find a Gym</h1>
+                    <p class="text-white mt-3">PR Fitness Gyms are convenient to where you live and work.</p>
+                    <a href="#"><button class="w-33 bg-info text-white h-5 border-light mt-3">All Locations</button></a>
+                </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                <div>
+                    <h1>Join The Team</h1>
+                    <p class="text-white mt-3">Interested in a career in fitness? We are always hiring!</p>
+                    <a href="#"><button class="w-33 bg-info text-white h-5 border-light mt-3">Browse Jobs</button></a>
+                </div>
+                </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="p-10 p-lg-0 lg-10 text-center text-sm-start">
+        <div class="containter mt-10 p-5">
+            <div class="row-md col-sm">
+                <div class="d-md-flex align-items-center justify-content-evenly">
+                    <p class="col-lg-4 col-md-12"> Our gym is committed to helping customers achieve their strength training goals. 
+                        We provide a supportive environment where individuals can reach their full potential and transform their bodies. 
+                        Our knowledgeable trainers create personalized workout programs tailored to each individual's needs, whether they are beginners or experienced athletes. 
+                        We prioritize safety, excellence, and continuous improvement to ensure our customers receive the best experience possible. 
+                        Join us on this transformative journey and unlock your true strength potential. </p>
+                    <img src="static/photo-1519311965067-36d3e5f33d39.webp" alt="Athlete Support Image" class="img-fluid shadow-lg col-lg-6 col-md-12">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    
+    <section id="services" class="p-10 p-lg-0 lg-10 text-center text-sm-start">
+        <div class="containter mt-10 p-5">
+            <div class="row-md col-sm">
+                <div class="d-md-flex align-items-center justify-content-evenly">
+                    <img src="static/photo-1526401485004-46910ecc8e51.webp" alt="Athlete Support Image" class="img-fluid shadow-lg col-lg-6 col-md-12">
+                    <p class="col-lg-4 col-md-12">Our gym offers a diverse range of classes, including yoga, pilates, and cycling, catering to various fitness interests.
+                         However, we pride ourselves on our primary focus on weightlifting. 
+                         With a dedication to strength training, we provide a comprehensive environment that fosters muscle development, power, and endurance.
+                          Our expert trainers are equipped with the knowledge and experience to guide individuals through effective weightlifting techniques. 
+                          We believe that lifting weights not only enhances physical strength but also boosts confidence and promotes overall well-being.
+                           Join us in this empowering fitness journey and witness the transformative power of weightlifting.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Footer section -->
+    <div class="container-fluid w-100">
+        <!-- Footer -->
+        <footer class="text-center bg-info text-light">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+              <!--Grid row-->
+              <div class="row">
+                <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Useful Links</h5>
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#!" class="text-white text-decoration-none">Your Account</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white text-decoration-none">Pricing</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white text-decoration-none">Help</a>
+                      </li>
+                    </ul>
+                  </div> 
+                <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Info</h5>
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white text-decoration-none">Raleigh, NC, USA 27615</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white text-decoration-none">Call Us:(919) 555-5555</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white text-decoration-none">oakcity@gmail.com</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+    
+            <!-- Section: Social media -->
+            <section class="mb-4 text-center align-items-center">
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-facebook-f"></i></a>
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-twitter"></i
+                ></a>
+      
+              <!-- Instagram -->
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-instagram"></i
+                ></a>
+      
+              <!-- Linkedin -->
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-linkedin-in"></i
+                ></a>
+          </div>
+          <div
+               class="text-center p-3"
+               style="background-color: rgba(0, 0, 0, 0.2)"
+               >
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/"
+               >MDBootstrap.com</a
+              >
+          </div>
+        </footer>
+      </div>
+    </body>
+</html>
